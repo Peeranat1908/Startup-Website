@@ -71,7 +71,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-outline btn-info">เข้าสู่ระบบ</a>
+                    <a className="btn btn-outline btn-accent">เข้าสู่ระบบ</a>
                 </div>
             </div>
         </div>
