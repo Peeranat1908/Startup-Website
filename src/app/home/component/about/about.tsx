@@ -2,8 +2,8 @@ import Card from "./card";
 export default function About() {
     return (
         <div className="flex flex-col justify-center min-h-screen">
-            <div className="mt-8 text-center max-w-screen-md">
-                <h1 className="text-3xl font-bold text-foreground">
+            <div className="card mt-8 text-center max-w-screen-md bg-base-200 p-10 shadow-2xl">
+                <h1 className="text-3xl font-bold text-foreground mt-5">
                     KU Startup คืออะไร ?
                 </h1>
                 <p className="mt-6 text-lg text-white leading-relaxed">

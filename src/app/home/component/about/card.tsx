@@ -8,7 +8,7 @@ export default function Card() {
                 {/* row-1 */}
                 <div className="flex justify-center">
                     {/* การ์ด1 */}
-                    <div className="card bg-base-200 w-100 h-72 shadow-xl">
+                    <div className="card bg-base-200 w-96 h-72 shadow-xl">
                         <figure>
                             <img
                                 src="./img/Upskill Leadership Icon.png"
@@ -18,64 +18,55 @@ export default function Card() {
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title justify-center">StartUp Upskill</h2>
-                            <p>อบรมสมาชิกในชมรมเกี่ยวกับความรู้ด้านการทำStartup</p>
+                            <p className="text-center mt-2">อบรมสมาชิกในชมรมเกี่ยวกับความรู้ด้านการทำStartup</p>
                         </div>
                     </div>
 
                     {/* การ์ด2 */}
-                    <div className="card bg-base-100 w-96 shadow-xl ml-14">
+                    <div className="card bg-base-200 min-w-96 h-72 shadow-xl ml-14">
                         <figure>
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                src="./img/Camp Icon.png"
                                 alt="Shoes"
-                                className="rounded-t-lg"
+                                className="rounded-t-lg w-24 mt-7"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
-                            </div>
+                            <h2 className="card-title justify-center">Startup Boothcamp</h2>
+                            <p className="text-center mt-2">จัดค่ายสำหรับการเป็นผู้ประกอบการ</p>
                         </div>
                     </div>
                 </div>
 
                 {/* row-2 */}
-                <div className="flex justify-center">
+                <div className="flex justify-center mt-7">
                     {/* การ์ด */}
-                    <div className="card bg-base-100 w-96 shadow-xl">
+                    <div className="card bg-base-200 w-96 shadow-xl min-w-100 h-72">
                         <figure>
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                src="./img/Talk Icon.png"
                                 alt="Shoes"
-                                className="rounded-t-lg"
+                                className="rounded-t-lg w-24 mt-7"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
-                            </div>
+                            <h2 className="card-title justify-center">Talk Daily</h2>
+                            <p className="text-center mt-2">เสาวนาทางวิชาการ ในหัวข้อด้านการสร้างธุรกิจ</p>
                         </div>
                     </div>
 
                     {/* การ์ด */}
-                    <div className="card bg-base-100 w-96 shadow-xl ml-14">
+                    <div className="card bg-base-200 w-96 shadow-xl ml-14">
                         <figure>
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                src="./img/Hackathon Icon.png"
                                 alt="Shoes"
-                                className="rounded-t-lg"
+                                className="rounded-t-lg w-24 mt-7"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
-                            </div>
+                            <h2 className="card-title justify-center">Ku Hackathon</h2>
+                            <p className="text-center mt-2">ระดมความคิดในการแก้ปัญหาด้วยเทคโนโลยีและความรู้ด้านการสร้างธุรกิจ</p>
                         </div>
                     </div>
                 </div>
